@@ -1,0 +1,16 @@
+p1 {
+    font-size: 32px;
+    color: orange;
+}
+
+p2 {
+    font-size: 24px;
+    color: red;
+}
+body {
+    background-image: url("Background-1.jpg");
+}
+#link{
+    font-size: 32px;
+    color: orange; 
+}
