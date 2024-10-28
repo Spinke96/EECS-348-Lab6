@@ -12,7 +12,8 @@
 </body>
 
 <?php
-$input_num = $_GET["input_var"];
+$input = $_POST["input_var"];
+$input_num = intval($input);
 
 echo "<table>";
 for($row = 0; $row <= $input_num; $row++) {
@@ -29,7 +30,7 @@ for($row = 0; $row <= $input_num; $row++) {
     }
     echo "</tr>";
 }
-echo <"</table>";
+echo "</table>";
 ?>
 
 </html>
